@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.patterns.ApiTest" tests="5" skipped="0" failures="4" errors="0" timestamp="2021-08-19T09:53:07" hostname="DESKTOP-H6MRP86" time="5.958">
+<testsuite name="ru.netology.patterns.ApiTest" tests="5" skipped="0" failures="4" errors="0" timestamp="2021-08-19T09:56:10" hostname="DESKTOP-H6MRP86" time="6.289">
   <properties/>
-  <testcase name="Should get error message if login with not registered user" classname="ru.netology.patterns.ApiTest" time="4.099"/>
-  <testcase name="Should get error message if login with blocked registered user" classname="ru.netology.patterns.ApiTest" time="1.105">
+  <testcase name="Should get error message if login with not registered user" classname="ru.netology.patterns.ApiTest" time="4.646"/>
+  <testcase name="Should get error message if login with blocked registered user" classname="ru.netology.patterns.ApiTest" time="1.122">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -145,7 +145,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="Should successfully login with active registered user" classname="ru.netology.patterns.ApiTest" time="0.2">
+  <testcase name="Should successfully login with active registered user" classname="ru.netology.patterns.ApiTest" time="0.188">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -278,7 +278,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="Should get error message if login with wrong password" classname="ru.netology.patterns.ApiTest" time="0.301">
+  <testcase name="Should get error message if login with wrong password" classname="ru.netology.patterns.ApiTest" time="0.188">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -411,7 +411,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="Should get error message if login with wrong login" classname="ru.netology.patterns.ApiTest" time="0.226">
+  <testcase name="Should get error message if login with wrong login" classname="ru.netology.patterns.ApiTest" time="0.136">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -557,8 +557,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Prince",
-    "password": "eel",
+    "login": "Sherlene",
+    "password": "worm",
     "status": "blocked"
 }
 Request method:	POST
@@ -574,8 +574,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Denisse",
-    "password": "fox",
+    "login": "Samantha",
+    "password": "dolphin",
     "status": "active"
 }
 Request method:	POST
@@ -591,8 +591,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Elton",
-    "password": "mink",
+    "login": "Jamila",
+    "password": "beetle",
     "status": "active"
 }
 Request method:	POST
@@ -608,19 +608,19 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Minna",
-    "password": "cheetah",
+    "login": "Damion",
+    "password": "kangaroo",
     "status": "active"
 }
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32602
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34191
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-авг. 19, 2021 12:53:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг. 19, 2021 12:56:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
