@@ -1,6 +1,0 @@
-ru/netology/patterns/DataGenerator.java
- ru.netology.patterns.DataGenerator
- ru.netology.patterns.DataGenerator$Registration
- ru.netology.patterns.DataGenerator$UserForRegistration
-ru/netology/patterns/ApiTest.java
- ru.netology.patterns.ApiTest
